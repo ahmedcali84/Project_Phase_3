@@ -50,15 +50,15 @@ The following is a Roc Curves fo the Models used:
 
 The following is A Table to show The best Metrics of Each Models used:
 
-models		Best Performance		
-Precision	Recall	f1-score	Accuracy
-Logistic Regression	0.49	0.72	0.58	0.78
-Desicion Tree	0.56	0.56	0.56	0.81
-Random Forest	0.69	0.42	0.52	0.83
-AdaBoost	0.59	0.53	0.56	0.82
-Gradient Boost	0.65	0.50	0.57	0.84
-XGBoost	0.66	0.45	0.54	0.83
-
+|   models  |       |      Best Performance     |    |    |
+|:-----------------:|:------:|:---------:|:--:|:--:|
+|     |   **Precision**  |     **Recall**    |   **f1-score** |    **Accuracy**|
+|    Logistic Regression   |  0.49   |   0.72   |   0.58  | 0.78 |
+|     Desicion Tree   |   0.56     | 0.56    |  0.56 | 0.81|
+| Random Forest  |    0.69    | 0.42    | 0.52   | 0.83 |
+| AdaBoost  | 0.59   |   0.53    |  0.56  | 0.82 |
+| Gradient Boost |  0.65   |  0.50   |   0.57 | 0.84 |
+| XGBoost |    0.66 |  0.45  |    0.54   |   0.83   |
 ## Conclusions
 The Final Model we used was Logistic Regression Model because it outperformed the other Model in that it provided us with better metrics than the all other classification models we used.`(Refer to the table above for the best metrics)`
 
@@ -69,6 +69,6 @@ The predictions on our test data indicates that 68 % of the observations recorde
 - The dataset also had abundancy in female observations in the `sex` column, implying that on Majority females are likely to go for vaccines more than males. So the comapany should focus more on them in their outreach.
 
 
-***for More detailed discussion about the project,please refer to the notebook.***
+***for More detailed discussion about the project,please refer to the notebook as it contains detailed visualizations and more understanding.***
 
 
